@@ -9,9 +9,26 @@ h1 {
     text-align: center;
 }
 
+p:first-of-type {
+    color: white;
+    font-size: 30px;
+}
+
+
 p {
     color: #827eff;
     font-size: 18px;
     line-height: 1.6;
     text-align: center;
+}
+
+
+a:hover {
+    color: brown;
+    font-size: 30px
+}
+
+[data-info] {
+    border-style: solid;
+    color: brown;
 }
